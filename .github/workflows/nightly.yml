@@ -1,9 +1,12 @@
 name: nightly
+# DISABLED - This is a fork, not the main project
+# on:
+#   push:
+#     branches: [main, master]
+#   schedule:
+#     - cron: "0 0 * * *"
+#   workflow_dispatch:
 on:
-  push:
-    branches: [main, master]
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
 
 concurrency:
