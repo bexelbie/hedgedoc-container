@@ -1,7 +1,10 @@
 name: Container release
+# DISABLED - This is a fork, not the main project
+# on:
+#   push:
+#     branches: [main, master]
+#   workflow_dispatch:
 on:
-  push:
-    branches: [main, master]
   workflow_dispatch:
 
 jobs:
