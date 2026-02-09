@@ -24,7 +24,7 @@ jobs:
     env:
       REGISTRY: ghcr.io
       IMAGE_NAME: ${{ github.repository_owner }}/hedgedoc-bex
-      HEDGEDOC_REPOSITORY: https://github.com/bexelbie/hedge-doc.git
+      HEDGEDOC_REPOSITORY: https://github.com/bexelbie/hedgedoc.git
       HEDGEDOC_VERSION: bex-master
     steps:
       - name: Checkout
