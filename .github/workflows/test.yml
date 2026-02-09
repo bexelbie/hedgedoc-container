@@ -1,9 +1,12 @@
 name: Tests
+# DISABLED - This is a fork
+# on:
+#   pull_request:
+#     branches: '**'
+#   push:
+#     branches: [main, master]
 on:
-  pull_request:
-    branches: '**'
-  push:
-    branches: [main, master]
+  workflow_dispatch:
 
 jobs:
   test:
